@@ -1,0 +1,227 @@
+{
+  "private": true,
+  "index": "primitives.js",
+  "tests": [
+    {
+      "name": "primitives",
+      "tags": [
+        "basics",
+        "declaration"
+      ]
+    },
+    {
+      "name": "escape-str",
+      "tags": [
+        "str",
+        "declaration"
+      ]
+    },
+    {
+      "name": "arr",
+      "tags": [
+        "basics",
+        "declaration"
+      ]
+    },
+    {
+      "name": "obj",
+      "tags": [
+        "basics",
+        "declaration"
+      ]
+    },
+    {
+      "name": "circular",
+      "tags": [
+        "advanced",
+        "declaration"
+      ]
+    },
+    {
+      "name": "id",
+      "tags": [
+        "basics",
+        "declaration",
+        "function"
+      ]
+    },
+    {
+      "name": "get-length",
+      "tags": [
+        "get",
+        "gets",
+        "function"
+      ]
+    },
+    {
+      "name": "get-first",
+      "tags": [
+        "get",
+        "gets",
+        "function"
+      ]
+    },
+    {
+      "name": "get-last",
+      "tags": [
+        "get",
+        "gets",
+        "function"
+      ]
+    },
+    {
+      "name": "concat-str",
+      "tags": [
+        "str",
+        "function",
+        "opperator"
+      ]
+    },
+    {
+      "name": "get",
+      "tags": [
+        "get",
+        "gets",
+        "function"
+      ]
+    },
+    {
+      "name": "is-positive",
+      "tags": [
+        "math",
+        "function"
+      ]
+    },
+    {
+      "name": "add",
+      "tags": [
+        "math",
+        "opperator",
+        "function"
+      ]
+    },
+    {
+      "name": "sub",
+      "tag": "math"
+    },
+    {
+      "name": "abs",
+      "tag": "math"
+    },
+    {
+      "name": "max",
+      "tag": "math"
+    },
+    {
+      "name": "min",
+      "tag": "math"
+    },
+    {
+      "name": "sign",
+      "tag": "math"
+    },
+    {
+      "name": "same-sign",
+      "tag": "math"
+    },
+    {
+      "name": "repeat",
+      "tags": [
+        "str"
+      ]
+    },
+    {
+      "name": "sentence",
+      "tags": [
+        "str",
+        "method"
+      ]
+    },
+    {
+      "name": "words",
+      "tags": [
+        "str",
+        "method"
+      ]
+    },
+    {
+      "name": "yell",
+      "tags": [
+        "str",
+        "tdd",
+        "method"
+      ]
+    },
+    {
+      "name": "whisper",
+      "tags": [
+        "str",
+        "tdd",
+        "method"
+      ]
+    },
+    {
+      "name": "cut",
+      "tags": [
+        "str",
+        "tdd",
+        "method"
+      ]
+    },
+    {
+      "name": "keep",
+      "tags": [
+        "str",
+        "tdd",
+        "method"
+      ]
+    },
+    {
+      "name": "capitalize",
+      "tags": [
+        "str",
+        "method"
+      ]
+    },
+    {
+      "name": "jaden-case",
+      "tags": [
+        "advanced",
+        "tdd",
+        "method"
+      ]
+    },
+    {
+      "name": "total",
+      "tag": "math"
+    },
+    {
+      "name": "multiply",
+      "tag": "math"
+    },
+    {
+      "name": "multiply-recursive",
+      "tags": [
+        "advanced",
+        "recursion"
+      ]
+    }
+  ],
+  "scripts": {
+    "update": "git reset && git stash && git pull https://github.com/nan-ci/js.git master && git stash pop",
+    "test": "./tester"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
